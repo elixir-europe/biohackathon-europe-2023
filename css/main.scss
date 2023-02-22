@@ -1733,7 +1733,7 @@ body.is-loading {
 	>header {
 		@include vendor('background-image',
 		('linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6))',
-		'url("#{$baseurl}/venue-main-building.jpg")'));
+		'url("#{$baseurl}/header-venue.webp")'));
 	}
 }
 
@@ -1749,7 +1749,7 @@ body.is-loading {
 	>header {
 		@include vendor('background-image',
 		('linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6))',
-		'url("#{$baseurl}/header-table-discussion.webp")'));
+		'url("#{$baseurl}/header-projects.webp")'));
 	}
 }
 
@@ -1757,7 +1757,7 @@ body.is-loading {
 	>header {
 		@include vendor('background-image',
 		('linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6))',
-		'url("#{$baseurl}/header-tables-discussion.webp")'));
+		'url("#{$baseurl}/header-programme.webp")'));
 	}
 }
 
@@ -1859,7 +1859,7 @@ body.landing {
 	#page-wrapper {
 		@include vendor('background-image',
 		('linear-gradient(top, rgba(0,0,0,0.55), rgba(0,0,0,0.75))',
-		'url("#{$baseurl}/biohackathon-2021-crowd.jpeg")'));
+		'url("#{$baseurl}/biohackathon-2022-crowdshot.webp")'));
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -1944,4 +1944,8 @@ ul {
 
 .muted-color {
   color: _palette(fg-light);
+}
+
+.text-large {
+  font-size: 1.2em;
 }

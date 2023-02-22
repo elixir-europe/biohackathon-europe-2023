@@ -2,7 +2,7 @@
 // Vars.
 /// Breakpoints.
 /// @var {list}
-$breakpoints: () !global; /// Vendor prefixes.
+$breakpoints: (); /// Vendor prefixes.
 /// @var {list}
 $vendor-prefixes: ( '-moz-', '-webkit-', '-ms-', ''); /// Properties that should be vendorized.
 /// @var {list}
@@ -758,7 +758,7 @@ $vendor-values: ( 'filter', 'flex', 'linear-gradient', 'radial-gradient', 'trans
 			#{$vendor}#{$property}: #{str-replace-all($value, '-prefix-', $vendor)};
 		}
 	} // Expand just the value?
-	@elseif $expandValue {
+	@else if $expandValue {
 		@each $vendor in $vendor-prefixes {
 			#{$property}: #{str-replace-all($value, '-prefix-', $vendor)};
 		}

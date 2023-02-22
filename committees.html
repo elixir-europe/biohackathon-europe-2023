@@ -1,0 +1,49 @@
+---
+layout: page
+title: Committees
+body_class: committees
+---
+
+<h2 class="mb-3">Organising Committee</h2>
+<div>
+    <div class="row">
+      <div class="col-sm text-center mb-3">
+        <img src="/images/people/katharina-heil.webp" alt="Katharina Heil" width="225" class="border" >
+        <div class="text-muted small">Katharina Heil (Chair)</div>
+      </div>
+      <div class="col-sm text-center mb-3">
+        <img src="/images/people/zuzana-clarke.jpeg" alt="Zuzana Clarke" width="225" class="border" >
+        <div class="text-muted small">Zuzana Clarke</div>
+      </div>
+      <div class="col-sm text-center mb-3">
+        <img src="/images/people/martin-cook.jpeg" alt="Martin Cook" width="225" class="border" >
+        <div class="text-muted small">Martin Cook</div>
+      </div>
+      <div class="col-sm text-center mb-3">
+        <img src="/images/people/david-lloyd.jpeg" alt="David Lloyd" width="225" class="border" >
+        <div class="text-muted small">David Lloyd</div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-sm text-center mb-3">
+          <img src="/images/people/manthos-pitoulias.jpeg" alt="Manthos Pitoulias" width="225" class="border" >
+          <div class="text-muted small">Manthos Pitoulias</div>
+        </div>
+        <div class="col-sm text-center mb-3">
+          <img src="/images/people/zippy-tseng.jpeg" alt="Zipy Zseng" width="225" class="border" >
+          <div class="text-muted small">Zippy Tseng</div>
+        </div>
+        <div class="col-sm text-center mb-3">
+          &nbsp;
+        </div>
+        <div class="col-sm text-center mb-3">
+          &nbsp;
+      </div>
+  </div>
+
+
+{% assign latest_committee = site.committee | last %}
+<div class="table-wrapper">
+    {{latest_committee.content}}
+</div>
+

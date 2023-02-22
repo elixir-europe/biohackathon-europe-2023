@@ -1,34 +1,27 @@
 ---
 layout: default
 title: Committee
-author: Ricardo
 ---
-## Organising Committee
 
-|**NAME**|**INSTITUTE**|**RESPONSIBILITY**|
-|:---------------------|:----------------:|:----------|
-| Katharina Heil             | ELIXIR Hub  | **Chair**  |
-| Leyla Jael Castro          | ELIXIR Hub/<br />ZB MED | **Vice chair** |
-| Dana Cernoskova            | Scientifika | Organiser  |
-| Zuzana Clarke              | ELIXIR Hub  | Organiser  |
-| Martin Cook                | ELIXIR Hub  | Organiser  |
-| David Lloyd                | ELIXIR Hub  | Organiser  |
-| Manthos Pitoulias          | ELIXIR Hub  | Organiser  |
+<h2 class="mt-5" id="programme">Programme Committee</h2>
 
-
-| Zippy Tseng                | ELIXIR Hub  | Organiser  |
-
-<h2 class="mt-5">Programme Committee</h2>
-
-|**NAME**|**INSTITUTE**|**RESPONSIBILITY**|
-|:---------------------|:----------------:|:----------|
-| Ben Busby                  | External    | Advisor    | 
-| Dan Ben-Avraham            | ELIXIR-IL   | Advisor    | 
-| Alban Gaignard             | ELIXIR-FR   | Advisor    | 
-| Björn Grüning              | ELIXIR DE   | Advisor    |
-| Wei Gu                     | ELIXIR-LU   | Advisor    |
-| Nils Hoffmann              | ELIXIR-DE   | Advisor    |
-| Hervé Ménager              | ELIXIR-FR   | Advisor    | 
-| Tazaro Ohta                | External    | Advisor    | 
-| Venkata Satagopam          | ELIXIR-LU   | Advisor    |
-| Marek Suchánek             | ELIXIR-CZ   | Advisor    |
+|**NAME**|**INSTITUTE**|
+|:---------------------|:----------------:|
+| Dan Ben-Avraham            | ELIXIR-IL   
+| Ben Busby                  | External
+| Leyla Yael Garcia Castro   | External
+| Nazeefa Fatima             | ELIXIR-NO
+| Alban Gaignard             | ELIXIR-FR
+| Björn Grüning              | ELIXIR DE
+| Wei Gu                     | ELIXIR-LU
+| Katharina Heil             | ELIXIR Hub
+| Nils Hoffmann              | ELIXIR-DE
+| Mijke Jetten               | ELIXIR-NL
+| Alexander Kanitz           | ELIXIR-CH
+| Hervé Ménager              | ELIXIR-FR
+| Tazaro Ohta                | External
+| Eva Martin del Pico        | ELIXIR-ES
+| Pjotr Prins                | External
+| Venkata Satagopam          | ELIXIR-LU
+| Marek Suchánek             | ELIXIR-CZ
+| Jonathan Tedds             | ELIXIR Hub
