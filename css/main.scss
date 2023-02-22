@@ -1769,7 +1769,7 @@ body.is-loading {
 	}
 }
 
-.committee #main {
+.committees #main {
 	>header {
 		@include vendor('background-image',
 		('linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6))',
