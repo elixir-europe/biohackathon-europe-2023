@@ -7,8 +7,8 @@ description: Barcelona 30 October - 3 November 2023
 owner: Elixir Hub # or company name
 first_published: 2023 # if migrating another site, the year of your first publish
 email: webmaster@elixir-europe.org
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://elixir-europe.github.io/biohackathon-europe-2022/" # the base hostname & protocol for your site
+baseurl: "biohackathon-europe-2023/" # the subpath of your site, e.g. /blog
+url: "https://elixir-europe.github.io/biohackathon-europe-2023/" # the base hostname & protocol for your site
 social:
   Twitter: https://twitter.com/hashtag/BioHackEU23
   GitHub: https://github.com/elixir-europe/biohackathon-europe-2023
