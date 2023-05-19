@@ -51,15 +51,19 @@ body_class: projects
       </tr>
     </thead>
     <tbody>
-      {% assign csv_file = site.static_files | where: "path", "_projects/accepted_bhprojects2023.csv" %}
-      {% assign csv_content = csv_file[0].contents | strip_newlines %}
-      {% assign csv_rows = csv_content | split: "\n" %}
-      {% for row in csv_rows %}
-        {% assign csv_columns = row | split: "," %}
-        <tr>
-          <td>{{ csv_columns[0] }}</td>
-          <td>{{ csv_columns[1] }}</td>
-        </tr>
+      {% assign csv_path = '_projects/accepted_bhprojects2023.csv' %}
+      {% for file in site.static_files %}
+        {% if file.path == csv_path %}
+          {% assign csv_content = file.contents | newline_to_br | strip_newlines %}
+          {% assign csv_rows = csv_content | split: "<br>" %}
+          {% for row in csv_rows %}
+            {% assign csv_columns = row | split: "," %}
+            <tr>
+              <td>{{ csv_columns[0] }}</td>
+              <td>{{ csv_columns[1] }}</td>
+            </tr>
+          {% endfor %}
+        {% endif %}
       {% endfor %}
     </tbody>
   </table>
