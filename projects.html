@@ -42,3 +42,23 @@ body_class: projects
     <a class="button special" href="{{ site.baseurl }}/ipdiscl.html" class="ml-4">IP Disclaimer</a>
 </section> -->
 
+<section id="hacking-projects">
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="text-uppercase align-middle" scope="col">Project Number</th>
+        <th class="text-uppercase align-middle" scope="col">Title</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign csv_file = site.projects | where: "path", "accepted_bhprojects2023.csv" %}
+      {% assign csv_data = csv_file[0].content | csv_to_array %}
+      {% for row in csv_data %}
+        <tr>
+          <td>{{ row.project_number }}</td>
+          <td>{{ row.title }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
