@@ -51,20 +51,146 @@ body_class: projects
       </tr>
     </thead>
     <tbody>
-      {% assign csv_path = '_projects/accepted_bhprojects2023.csv' %}
-      {% for file in site.static_files %}
-        {% if file.path == csv_path %}
-          {% assign csv_content = file.contents | newline_to_br | strip_newlines %}
-          {% assign csv_rows = csv_content | split: "<br>" %}
-          {% for row in csv_rows %}
-            {% assign csv_columns = row | split: "," %}
-            <tr>
-              <td>{{ csv_columns[0] }}</td>
-              <td>{{ csv_columns[1] }}</td>
-            </tr>
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
+      <tr>
+        <td>1</td>
+        <td>A “batteries-included” open reference resource for human genomic copy number variants (CNV)</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Assessing quality and privacy metrics of synthetic health data for benchmarking: the variant callers use case.</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Automating the building of a virtual, distributed pollinator reference collection.</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Benchmarks for Bioinformatics Workflow Bake Offs</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>BioHackrXiv and publications</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>BioModelsML: Building a FAIR and reproducible collection of machine learning models in life science and medicine for easy reuse</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Bioschemas resource index for chem and plants</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Building towards a machine-actionable Software Management Plan</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Cell type-specific and druggable pathway models and maps</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Community-driven continuous benchmarking of single-cell tools</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Creating lesson plans to advance (life sciences) data steward & researcher FAIR skills</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Creating the ELIXIR Data Stewardship/Management (DS/DM) Handbook - a guide for DS/DM to manage their life sciences RDM efforts</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>Discovering Bioinformatics Software in Software Heritage</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>Enabling continuous RDM using Annotated Research Contexts with RO-Crate profiles for ISA</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>Enabling FAIR Digital Objects with RO-Crates, Signposting and Bioschemas</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>Enhancing the image analysis community in Galaxy</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>Extending interoperability of experimental data using modular queries across biomedical resources</td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td>FAIRification of mass spectral library creation</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>Galaxy ENA Upload as an Interactive Tool</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>Genome annotation workflows for the tree of life</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>Health data text mining</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>Improved linking from sequence data to specimens and samples repositories</td>
+      </tr>
+      <tr>
+        <td>23</td>
+        <td>Improving Bioschemas creation and community adoption through process improvements and tool development, and advancing compliance to FAIR standards</td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td>Improving functionality and usability of OpenEBench for data-driven research in Life Sciences through Community-led efforts</td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td>Increasing the findability, visibility, and impact of Galaxy tools for specialised scientific Communities</td>
+      </tr>
+      <tr>
+        <td>26</td>
+        <td>Literature Biocuration Practices and Guidelines</td>
+      </tr>
+      <tr>
+        <td>27</td>
+        <td>Multi-Repository Data Submission using ISA-JSON</td>
+      </tr>
+      <tr>
+        <td>28</td>
+        <td>Providing a seamless and interoperable environment for executing life science workflows</td>
+      </tr>
+      <tr>
+        <td>29</td>
+        <td>Secure data-out API - enabling encrypted htsget transactions</td>
+      </tr>
+      <tr>
+        <td>30</td>
+        <td>Standards and ontologies for single cell experiments</td>
+      </tr>
+      <tr>
+        <td>31</td>
+        <td>Standards for a multimodal data wastewater surveillance process</td>
+      </tr>
+      <tr>
+        <td>32</td>
+        <td>Synergising ELIXIR Resources for Training in Systems Biology</td>
+      </tr>
+      <tr>
+        <td>33</td>
+        <td>The BioHackathon Cloud</td>
+      </tr>
+      <tr>
+        <td>34</td>
+        <td>Training SPLASH</td>
+      </tr>
+      <tr>
+        <td>35</td>
+        <td>Write once, run everywhere: exploring the use of Rust and WebAssembly to implement the Nanopublication signing protocol.</td>
+      </tr>
     </tbody>
   </table>
 </section>
