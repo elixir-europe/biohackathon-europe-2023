@@ -12,6 +12,7 @@ url: "https://biohackathon-europe.org" # the base hostname & protocol for your s
 social:
   Twitter: https://twitter.com/hashtag/BioHackEU23
   GitHub: https://github.com/elixir-europe/biohackathon-europe-2023
+  HashtagHub: https://hashtags-hub.toolforge.org/BioHackEU23
   #linkedin-square: https://www.linkedin.com/company/9501702
   #facebook-official: https://facebook.com/<username>
   #google-plus-square: https://plus.google.com/u/0/+<username>
