@@ -8,7 +8,7 @@
            ><i class="fas fa-envelope"></i> <span class="label">Email</span></a></li>
     {% else %}
     <li><a target="_blank" href="{{ socloc[1] }}"
-           ><i class="fab fa-{{socloc[0]}}"></i> <span class="label">{{ socloc[0] }}</span></a></li>
+           ><i class="fab fa-{{socloc[0] | downcase}}"></i> <span class="label">{{ socloc[0] }}</span></a></li>
     {% endif %}
     {% endif %}
     {% endfor %}
