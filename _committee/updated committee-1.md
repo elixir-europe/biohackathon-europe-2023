@@ -11,7 +11,7 @@ title: Committee
 | Ben Busby                |                                    External                                     |
 | Leyla Yael Garcia Castro |                                    External                                     |
 | Nazeefa Fatima           |     [ELIXIR-NO](https://elixir-europe.org/about-us/who-we-are/nodes/norway)     |
-| Katharina Heil           |         [ELIXIR Hub](https://elixir-europe.org/about-us/who-we-are/hub)         |
+| Katharina Heil (Chair)   |         [ELIXIR Hub](https://elixir-europe.org/about-us/who-we-are/hub)         |
 | Nils Hoffmann            |    [ELIXIR DE](https://elixir-europe.org/about-us/who-we-are/nodes/germany)     |
 | Mijke Jetten             |  [ELIXIR-NL](https://elixir-europe.org/about-us/who-we-are/nodes/netherlands)   |
 | Alexander Kanitz         |  [ELIXIR-CH](https://elixir-europe.org/about-us/who-we-are/nodes/switzerland)   |
