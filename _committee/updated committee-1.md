@@ -19,3 +19,4 @@ title: Committee
 | Eva Martin del Pico      |     [ELIXIR-ES](https://elixir-europe.org/about-us/who-we-are/nodes/spain)      |
 | Pjotr Prins              |                                    External                                     |
 | Marek Suchánek           | [ELIXIR-CZ](https://elixir-europe.org/about-us/who-we-are/nodes/czech-republic) |
+| Jonathan Tedds           | [ELIXIR Hub](https://elixir-europe.org/about-us/who-we-are/hub)                 |
